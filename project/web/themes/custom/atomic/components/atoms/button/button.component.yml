@@ -1,0 +1,27 @@
+# This is so your IDE knows about the syntax for fixes and autocomplete.
+$schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
+name: Button
+
+# Schema for the props. We support JSON Schema. Learn more about the
+# syntax at https://json-schema.org
+props:
+  type: object
+  required:
+    - text
+    - url
+  properties:
+    text:
+      type: string
+    url:
+      type: string
+    variant:
+      type: string
+      enum:
+        - btn-default
+        - btn-link
+      default: btn-default
+
+# Slots always hold arbitrary markup. We know that beforehand, so no need for
+# a schema for slots.
+slots:
+  minimal: {}
