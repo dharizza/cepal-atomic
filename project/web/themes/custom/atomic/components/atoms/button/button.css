@@ -1,0 +1,21 @@
+.btn {
+    padding: 1em;
+    text-transform: uppercase;
+    margin: 10px 0;
+    display: block;
+    max-width: 200px;
+    text-align: center;
+}
+
+.btn.btn-default {
+    background-color: #1A977C;
+    color: white;
+}
+
+.btn.btn-link {
+    color: gray;
+}
+
+.btn i {
+    color: #1A977C;
+}

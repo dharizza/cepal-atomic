@@ -1,0 +1,9 @@
+#ddev-gitpod-generated
+router_http_port: 8080
+router_https_port: 8443
+use_dns_when_possible: false
+
+additional_fqdns:
+- 8080-dharizza-cepalatomic-wyezti3u8p6.ws-us106.gitpod.io
+- 8025-dharizza-cepalatomic-wyezti3u8p6.ws-us106.gitpod.io
+- 8036-dharizza-cepalatomic-wyezti3u8p6.ws-us106.gitpod.io
