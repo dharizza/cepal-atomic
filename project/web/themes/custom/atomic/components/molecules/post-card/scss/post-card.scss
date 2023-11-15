@@ -1,0 +1,23 @@
+.post-card {
+    padding: 1em;
+    gap: 2em;
+    align-items: center;
+
+    .post-card__image {
+        order: 1;
+    }
+
+    .post-card__text {
+        order: 2;
+    }
+
+    &.reverse {
+        .post-card__image {
+            order: 2;
+        }
+
+        .post-card__text {
+            order: 1;
+        }
+    }
+}

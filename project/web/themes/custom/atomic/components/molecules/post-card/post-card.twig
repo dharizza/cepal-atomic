@@ -1,0 +1,16 @@
+{% set classes = [
+    'post-card',
+    'row',
+    variant == "reverse" ? variant,
+] %}
+
+<div{{ attributes.addClass(classes) }}>
+  <div class="post-card__image">
+    {% block image %}{% endblock %}
+  </div>
+  <div class="post-card__text">
+    <h3 class="post-card__title">{{ title }}</h3>
+    <div class="post-card__text">{{ text }}</div>
+    {% block ctas %}{% endblock %}
+  </div>
+</div>
