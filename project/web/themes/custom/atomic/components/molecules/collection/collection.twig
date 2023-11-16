@@ -1,0 +1,10 @@
+{% set prefix = 'collection' %}
+
+<section class="{{ prefix }}">
+  {% if title %}
+    <h2>{{ title }}</h2>
+  {% endif %}
+  <div class="{{ prefix }}--content row">
+    {% block cards %}{% endblock %}
+  </div>
+</section>
