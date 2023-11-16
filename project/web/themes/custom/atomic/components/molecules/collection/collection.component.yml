@@ -1,0 +1,12 @@
+$schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
+name: Collection
+
+props:
+  type: object
+  properties:
+    title:
+      type: string
+
+slots:
+  cards:
+    title: Collection content

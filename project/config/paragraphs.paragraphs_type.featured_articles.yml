@@ -1,0 +1,10 @@
+uuid: 2c7c301a-2a37-4250-b5aa-c5501365b721
+langcode: en
+status: true
+dependencies: {  }
+id: featured_articles
+label: 'Featured Articles'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,21 @@
+$schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
+name: Teaser
+
+props:
+  type: object
+  properties:
+    title:
+      type: string
+    text:
+      type: string
+    date:
+      type: string
+    url:
+      type: string
+
+slots:
+  image_card:
+    title: Image Card
+    description: Image used in the teaser.
+  link:
+    title: Link to page
