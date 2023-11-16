@@ -1,0 +1,10 @@
+uuid: d6e7d368-bc4b-42c0-9790-e29aa013b23e
+langcode: en
+status: true
+dependencies: {  }
+id: image_text_cta_card
+label: 'Card: Image, text, CTA'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

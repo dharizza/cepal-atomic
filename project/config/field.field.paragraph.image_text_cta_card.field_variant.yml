@@ -1,0 +1,23 @@
+uuid: 94176940-911b-4d8d-9175-845b1614a760
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_variant
+    - paragraphs.paragraphs_type.image_text_cta_card
+  module:
+    - options
+id: paragraph.image_text_cta_card.field_variant
+field_name: field_variant
+entity_type: paragraph
+bundle: image_text_cta_card
+label: Variant
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: left
+default_value_callback: ''
+settings: {  }
+field_type: list_string

@@ -9,6 +9,19 @@ dependencies:
   module:
     - link
     - options
+    - sdc_display
+third_party_settings:
+  sdc_display:
+    enabled: false
+    component:
+      machine_name: ''
+    mappings:
+      static:
+        props: {  }
+        slots: {  }
+      dynamic:
+        props: {  }
+        slots: {  }
 id: paragraph.button.default
 targetEntityType: paragraph
 bundle: button
@@ -16,19 +29,24 @@ mode: default
 content:
   field_link:
     type: link
-    label: above
+    label: hidden
     settings:
-      trim_length: 80
-      url_only: false
+      trim_length: null
+      url_only: true
       url_plain: false
-      rel: ''
-      target: ''
-    third_party_settings: {  }
+      rel: '0'
+      target: '0'
+    third_party_settings:
+      sdc_display:
+        enabled: 0
+        component:
+          machine_name: null
+          show_deprecated: 0
     weight: 0
     region: content
   field_style:
-    type: list_default
-    label: above
+    type: list_key
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     weight: 1
