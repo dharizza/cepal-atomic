@@ -13,7 +13,7 @@ const paths = {
     bundlesPath: './src/js/bundles',
   },
   images: 'img/',
-  patterns: 'patterns',
+  patterns: 'components',
   templates: 'templates',
 };
 

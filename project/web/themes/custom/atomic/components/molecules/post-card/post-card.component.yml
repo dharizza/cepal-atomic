@@ -1,0 +1,29 @@
+$schema: https://git.drupalcode.org/project/sdc/-/raw/1.x/src/metadata.schema.json
+name: Post Card
+
+props:
+  type: object
+  properties:
+    title:
+      type: string
+    text:
+      type: string
+    variant:
+      type: string
+      enum:
+        - left
+        - reverse
+      default: left
+
+slots:
+  ctas:
+    title: CTAs
+    description: Slot for CTA buttons.
+  image:
+    title: Image
+    description: Image for the component.
+
+libraryOverrides:
+  css:
+    component:
+      dist/css/post-card.min.css: { minified: true }

@@ -1,0 +1,27 @@
+uuid: 71167b1b-19c4-474c-8873-7f9cef6a7cdd
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_variant
+field_name: field_variant
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: left
+      label: 'Image aligned to the left'
+    -
+      value: reverse
+      label: 'Image aligned to the right'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,60 @@
+uuid: 53540436-03c8-4f2b-a713-22f40efaf484
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.image_text_cta_card.field_cta
+    - field.field.paragraph.image_text_cta_card.field_image
+    - field.field.paragraph.image_text_cta_card.field_text
+    - field.field.paragraph.image_text_cta_card.field_title
+    - field.field.paragraph.image_text_cta_card.field_variant
+    - paragraphs.paragraphs_type.image_text_cta_card
+  module:
+    - entity_reference_revisions
+    - options
+id: paragraph.image_text_cta_card.default
+targetEntityType: paragraph
+bundle: image_text_cta_card
+mode: default
+content:
+  field_cta:
+    type: entity_reference_revisions_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_text:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_variant:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+hidden: {  }

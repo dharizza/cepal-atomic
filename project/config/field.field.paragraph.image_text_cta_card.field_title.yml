@@ -1,0 +1,19 @@
+uuid: 1fa0608b-6b5e-4a37-b21c-83bfbd045319
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_title
+    - paragraphs.paragraphs_type.image_text_cta_card
+id: paragraph.image_text_cta_card.field_title
+field_name: field_title
+entity_type: paragraph
+bundle: image_text_cta_card
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
